@@ -1,0 +1,18 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/sudenurkomur/Desktop/TextAnalysis/text_analysis_server'
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002A14, symSize: 0x710 }
+  - { offset: 0x3F, size: 0x8, addend: 0x0, symName: _dictionary, symObjAddr: 0x3A38, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offset: 0x65, size: 0x8, addend: 0x0, symName: _dictionary_size, symObjAddr: 0x3A40, symBinAddr: 0x100008010, symSize: 0x0 }
+  - { offset: 0x81, size: 0x8, addend: 0x0, symName: _word_counter, symObjAddr: 0x1144, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x144, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002A14, symSize: 0x710 }
+  - { offset: 0x2BD, size: 0x8, addend: 0x0, symName: _load_dictionary, symObjAddr: 0x710, symBinAddr: 0x100003124, symSize: 0x164 }
+  - { offset: 0x32B, size: 0x8, addend: 0x0, symName: _send_full_message, symObjAddr: 0x874, symBinAddr: 0x100003288, symSize: 0x88 }
+  - { offset: 0x38C, size: 0x8, addend: 0x0, symName: _process_word, symObjAddr: 0x8FC, symBinAddr: 0x100003310, symSize: 0x290 }
+  - { offset: 0x46A, size: 0x8, addend: 0x0, symName: _is_word_in_dictionary, symObjAddr: 0xB8C, symBinAddr: 0x1000035A0, symSize: 0x94 }
+  - { offset: 0x4B1, size: 0x8, addend: 0x0, symName: _update_dictionary, symObjAddr: 0xC20, symBinAddr: 0x100003634, symSize: 0xC4 }
+  - { offset: 0x4E6, size: 0x8, addend: 0x0, symName: _levenshtein_distance, symObjAddr: 0xCE4, symBinAddr: 0x1000036F8, symSize: 0x304 }
+  - { offset: 0x5EE, size: 0x8, addend: 0x0, symName: _trim_whitespace, symObjAddr: 0xFE8, symBinAddr: 0x1000039FC, symSize: 0xF0 }
+  - { offset: 0x620, size: 0x8, addend: 0x0, symName: _free_dictionary, symObjAddr: 0x10D8, symBinAddr: 0x100003AEC, symSize: 0x6C }
+...
